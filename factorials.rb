@@ -1,11 +1,15 @@
 # create a method, factorial, that takes 1 argument, num
 # the method should return the factorial of the input number
 
+def factorial(num)
+  if num == 0
+    1
+  else
+    num * factorial(num-1)
+  end
+end
 
-
-
-
-
+puts (factorial(0) == 1).to_s
 
 
 

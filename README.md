@@ -3,7 +3,7 @@ Time to use programming to solve some higher level math challenges. A *factorial
 - For example: 5 factorial is 5 * 4 * 3 * 2 * 1 = 120  
 - This is also written as 5! = 120
 
-## hints
+## Hints
 Hint 1: Be careful you provide ruby with instructions that if the factorial reaches 1, it stops multiplying. If the loop continues to subtract 1, it will multiply forever! 
 
 Hint 2: **Recursion** is when a method calls itself if you want the method to repeat an action with varying instructions. 
